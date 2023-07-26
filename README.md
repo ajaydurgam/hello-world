@@ -4,4 +4,8 @@
 
 WELCOME TO THE NEW DEMO WORK ON GIT CLONING USING THE GITBASH IN WINDOWS
 
+<<<<<<< HEAD
 Working with git bash
+=======
+Changes done from github
+>>>>>>> 3692300af8142b522cabf5eb13ce33c6ad20f9aa
