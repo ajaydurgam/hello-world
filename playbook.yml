@@ -1,6 +1,6 @@
 # playbook.yml
 ---
-- hosts: localhost
+- hosts: 172.31.94.26
   become: yes
   tasks:
     - name: deploy application container
