@@ -1,6 +1,6 @@
 # playbook.yml
 ---
-- hosts: servers
+- hosts: localhost
   become: yes
   tasks:
     - name: deploy application container
