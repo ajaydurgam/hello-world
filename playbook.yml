@@ -1,0 +1,13 @@
+# playbook.yml
+---
+- hosts: servers
+  become: yes
+  tasks:
+    - name: deploy application container
+      docker_container:
+        image: ajdurgam/helloworld-image
+        name: helloworld-container
+        state: started
+        auto_remove: true
+        ports:
+          - "8081:8080"
