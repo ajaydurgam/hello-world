@@ -6,7 +6,7 @@
     - name: deploy application container
       docker_container:
         image: ajdurgam/hello-image
-        name: hello-container
+        name: hello-containers
         state: started
         auto_remove: true
         ports:
